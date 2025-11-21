@@ -12,7 +12,7 @@ const pool = new Pool({
 });
 
 app.use(cors({
-  origin: ['https://nvidiaai.bet', 'http://localhost:5000'],
+  origin: ['https://referraldashboard-bqvu.onrender.com', 'http://localhost:5000'],
   credentials: true
 }));
 app.use(express.json());
